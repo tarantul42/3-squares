@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+main {
+    position: relative;
+}
+div {
+    height: 200px;
+    width: 200px;
+}
+div:first-child {
+    background-color: red;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+div:nth-child(2) {
+    background-color: blue;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    z-index: 1;
+}
+div:nth-child(3) {
+    background-color: green;
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
